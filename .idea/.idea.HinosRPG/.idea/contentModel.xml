@@ -5,21 +5,33 @@
     <e p="C:\Users\sjors\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_HinosRPG.-1274941605.00" t="ExcludeRecursive" />
     <e p="D:\Unity\Projects\HinosRPG" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
-      <e p="Assets\Scripts" t="Include">
-        <e p="InputController.cs" t="Include" />
-        <e p="Item" t="Include">
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Character" t="Include">
+            <e p="CharacterController.cs" t="Include" />
+            <e p="ICharacter.cs" t="Include" />
+            <e p="ICharacterMovement.cs" t="Include" />
+            <e p="RigidbodyCharacterMovement.cs" t="Include" />
+          </e>
           <e p="Intractable.cs" t="Include" />
-          <e p="Inventory.cs" t="Include" />
-          <e p="Item.cs" t="Include" />
-          <e p="ItemContainer.cs" t="Include" />
-          <e p="ItemToolTip.cs" t="Include" />
-          <e p="SingleItemContainer.cs" t="Include" />
-        </e>
-        <e p="KinematicEquations.cs" t="Include" />
-        <e p="Player" t="Include">
-          <e p="PlayerCamera.cs" t="Include" />
-          <e p="PlayerInteract.cs" t="Include" />
-          <e p="PlayerMovement.cs" t="Include" />
+          <e p="Item" t="Include">
+            <e p="Inventory.cs" t="Include" />
+            <e p="Item.cs" t="Include" />
+            <e p="ItemContainer.cs" t="Include" />
+            <e p="ItemToolTip.cs" t="Include" />
+            <e p="SingleItemContainer.cs" t="Include" />
+          </e>
+          <e p="KinematicEquations.cs" t="Include" />
+          <e p="Player" t="Include">
+            <e p="IInput.cs" t="Include" />
+            <e p="KeyboardInput.cs" t="Include" />
+            <e p="PlayerCamera.cs" t="Include" />
+            <e p="PlayerController.cs" t="Include" />
+            <e p="PlayerMovement.cs" t="Include" />
+          </e>
+          <e p="Timer" t="Include">
+            <e p="ITimer.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="HinosRPG.sln" t="IncludeFlat" />
