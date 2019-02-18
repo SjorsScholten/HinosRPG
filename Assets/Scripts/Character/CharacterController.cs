@@ -18,8 +18,15 @@ public class CharacterController : MonoBehaviour, ICharacter {
     private ICharacterMovement characterMovement;
 
     private void Awake() {
-        throw new System.NotImplementedException();
+        inputComponent = GetComponentInParent<IInput>();
+        characterMovement = GetComponent<ICharacterMovement>();
     }
-    
-    
+
+    private void FixedUpdate() {
+        var speed = inputComponent.IsRunning ? runSpeed : walkSpeed;
+        var direction = inputComponent.MovementDirection;
+        if (direction != Vector3.zero) {
+            characterMovement.Move(direction, speed);
+        }
+    }
 }

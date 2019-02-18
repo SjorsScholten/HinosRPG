@@ -6,7 +6,7 @@ public class KeyboardInput : MonoBehaviour, IInput {
     public event EventHandler Interacting;
 
     private void Update() {
-        if (Input.GetButtonDown("Interaction")) {
+        if (Input.GetKeyDown(KeyCode.E)) {
             OnInteract();
         }
     }
@@ -23,5 +23,5 @@ public class KeyboardInput : MonoBehaviour, IInput {
         }
     }
 
-    public bool IsRunning => Input.GetButton("Running");
+    public bool IsRunning => Input.GetKey(KeyCode.LeftShift);
 }
