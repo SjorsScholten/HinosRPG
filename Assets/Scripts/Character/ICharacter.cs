@@ -1,5 +1,4 @@
-namespace Item.Character {
-    public interface ICharacter {
-        
-    }
+
+public interface ICharacter {
+    
 }
