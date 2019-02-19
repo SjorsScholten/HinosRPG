@@ -57,7 +57,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 1360a7950e2639a439084c0c7091e8f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -150,6 +150,7 @@ GameObject:
   - component: {fileID: 6211914804048901707}
   - component: {fileID: 6211914804048901700}
   - component: {fileID: 6211914804048901706}
+  - component: {fileID: 7705058396438963315}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -188,6 +189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 5
   runSpeed: 10
+  interactionRange: 1.5
 --- !u!54 &6211914804048901700
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -216,6 +218,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad579be3e4258444b89f9f807ced2a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7705058396438963315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6211914804048901705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf495ec30ae1be4b80e20bcb1d0159d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6211914804793971246
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,7 +240,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6211914804793971247}
   - component: {fileID: 6211914804793971240}
-  - component: {fileID: 6211914804793971241}
   m_Layer: 0
   m_Name: Collider
   m_TagString: Untagged
@@ -262,15 +275,3 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &6211914804793971241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6211914804793971246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11d661b81f950f243b47dd97852cfcc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

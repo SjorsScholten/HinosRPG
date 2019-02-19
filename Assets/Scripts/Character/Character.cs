@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterController : MonoBehaviour, ICharacter {
+public class Character : MonoBehaviour, ICharacter {
     
     [Header("Movement")]
     
