@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\sjors\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\sjors\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_HinosRPG.1599240276.00" t="ExcludeRecursive" />
-    <e p="D:\Projects\HinosRPG" t="IncludeRecursive">
+    <e p="C:\Users\sjors\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\sjors\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_HinosRPG.-1274941605.00" t="ExcludeRecursive" />
+    <e p="D:\Unity\Projects\HinosRPG" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
@@ -15,13 +15,14 @@
               <e p="RigidbodyCharacterMovement.cs" t="Include" />
             </e>
           </e>
-          <e p="Intractable.cs" t="Include" />
-          <e p="Item" t="Include">
-            <e p="Inventory.cs" t="Include" />
-            <e p="Item.cs" t="Include" />
-            <e p="ItemContainer.cs" t="Include" />
-            <e p="ItemToolTip.cs" t="Include" />
-            <e p="SingleItemContainer.cs" t="Include" />
+          <e p="Dialogue" t="Include">
+            <e p="DialogueController.cs" t="Include" />
+            <e p="IDialogue.cs" t="Include" />
+            <e p="SimpleDialogue.cs" t="Include" />
+          </e>
+          <e p="Interactables" t="Include">
+            <e p="IInteractable.cs" t="Include" />
+            <e p="Sign.cs" t="Include" />
           </e>
           <e p="KinematicEquations.cs" t="Include" />
           <e p="Player" t="Include">
